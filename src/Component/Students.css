@@ -1,0 +1,33 @@
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+table{
+    height: 400px;
+    width: 850px;
+    margin-left: 170px;
+    border: 1px;
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+th,tr{
+    border-bottom: 1px solid gray;
+}
+th,td{
+    padding: 20px;
+}
+tr:last-child{
+    border-bottom: none;
+}
+thead{
+    text-align: left;
+    font-size: 20px;
+}
+td:last-child{
+    text-decoration: underline;
+    cursor: pointer;
+}
